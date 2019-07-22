@@ -1,7 +1,24 @@
-$primary: #7ed56f;
-$primary-light: #55c57a;
+// COLORS
+$primary: #55c57a;
+$primary-light: #7ed56f;
 $primary-dark: #28b485;
 
+$secondary-light: #ffb980;
+$secondary-dark: #ff7730;
+
+$tertiary-light: #2998ff;
+$tertiary-dark: #5643fa;
+
+$grey-light-1: #f7f7f7;
 $grey-dark: #777;
+$grey-medium: #eee;
 $white: #fff;
 $black: #000;
+
+// FONT
+$default-font-size: 1.6rem;
+
+// GRID
+$grid-width: 114rem;
+$guttur-vertical: 8rem;
+$gutter-horizontal: 6rem;
