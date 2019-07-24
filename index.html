@@ -13,6 +13,26 @@
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
     <body>
+        <!-- Navigation starts here -->
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon"></span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link">About Natours</a></li>
+                    <li class="navigation__item"><a href="#section-features" class="navigation__link">Your benifits</a></li>
+                    <li class="navigation__item"><a href="#section-tours" class="navigation__link">Popular Tours</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Tours</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Navigation ends here -->
+
+        <!-- Header starts here -->
         <header class="header">
             <div class="header__logo-box">
                 <img src="img/logo-white.png" alt="Logo" class="header__logo">
@@ -22,12 +42,14 @@
                     <span class="heading-primary--main">Outdoors</span>
                     <span class="heading-primary--sub">is where life happens</span>
                 </h1>
-                <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+                <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
             </div>
         </header>
+        <!-- Header ends here -->
 
         <main>
-            <section class="section-about">
+            <!-- About section starts here -->
+            <section class="section-about" id="section-about">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">Exciting tours for adventurous people</h2>
                 </div>
@@ -52,7 +74,10 @@
                     </div>
                 </div>
             </section>
-            <section class="section-features">
+            <!-- About section ends here -->
+
+            <!-- Features section starts here -->
+            <section class="section-features" id="section-features">
                 <div class="row">
                     <div class="col-1-of-4">
                         <div class="feature-box">
@@ -92,7 +117,10 @@
                     </div>
                 </div>
             </section>
-            <section class="section-tours">
+            <!-- Features section ends here -->
+
+            <!-- Tours section starts here -->
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">Most popular tours</h2>
                 </div>
@@ -122,7 +150,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$297</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book Now</a>
+                                    <a href="#popup" class="btn btn--white">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +180,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$497</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book Now</a>
+                                    <a href="#popup" class="btn btn--white">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +210,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$897</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book Now</a>
+                                    <a href="#popup" class="btn btn--white">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -192,6 +220,9 @@
                     <a href="#" class="btn btn--green">Discover All Tours</a>
                 </div>
             </section>
+            <!-- Tours section ends here -->
+
+            <!-- Stories section starts here -->
             <section class="section-stories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
@@ -235,6 +266,9 @@
                     <a href="#" class="btn-text">Read All Stories &rarr;</a>
                 </div>
             </section>
+            <!-- Stories section ends here -->
+
+            <!-- Booking section starts here -->
             <section class="section-book">
                 <div class="row">
                     <div class="book">
@@ -275,37 +309,52 @@
                     </div>
                 </div>
             </section>
+            <!-- Booking section ends here -->
+
         </main>
 
-        <!-- <section class="grid-test">
-            <div class="row">
-                <div class="col-1-of-2">Col 1 of 2</div>
-                <div class="col-1-of-2">Col 1 of 2</div>
+        <!-- Footer Starts Here -->
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
             </div>
             <div class="row">
-                <div class="col-1-of-3">Col 1 of 3</div>
-                <div class="col-1-of-3">Col 1 of 3</div>
-                <div class="col-1-of-3">Col 1 of 3</div>
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Conatct US</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Built by <a href="#" class="footer__link">Naga Gopi</a>. Copyright &copy; by Naga Gopi. you are 100% allowed to use this webpage.
+                    </p>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-1-of-3">Col 1 of 3</div>
-                <div class="col-2-of-3">Col 2 of 3</div>
+        </footer>
+        <!-- Footer ends here -->
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour Photo" class="popup__image" />
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__image" />
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-medium">Start Booking Now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                    <p class="popup__text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <a href="#" class="btn btn--green">Book Now</a>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-1-of-4">Col 1 of 4</div>
-            </div>
-            <div class="row">
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-2-of-4">Col 2 of 4</div>
-                <div class="col-1-of-4">Col 1 of 4</div>
-            </div>
-            <div class="row">
-                <div class="col-1-of-4">Col 1 of 4</div>
-                <div class="col-3-of-4">Col 3 of 4</div>
-            </div>
-        </section> -->
+        </div>
     </body>
 </html>
